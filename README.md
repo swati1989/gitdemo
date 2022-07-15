@@ -21,6 +21,7 @@
 
 
 ##2. Starting a project
+
       Git init
       Create a local repository:
       $ git init
@@ -30,6 +31,7 @@
 
 
 ##3. Local changes
+
       Git add
       Add a file to staging (Index) area:
       $ git add Filename
@@ -41,6 +43,7 @@
 
 
 ##4. Track changes
+
       Git diff
       Track the changes that have not been staged: $ git diff
       Track the changes that have staged but not committed:
@@ -58,6 +61,7 @@
 
 
 ##5. Commit History
+
       Git log
       Display the most recent commits and the status of the head:
       $ git log
@@ -73,6 +77,7 @@
 
 
 ##6. Ignoring files
+
       .gitignore
       Specify intentionally untracked files that Git should ignore. Create .gitignore:
       $ touch .gitignore List the ignored files:
@@ -80,6 +85,7 @@
 
 
 ##7. Branching
+
       Git branch Create branch:
       $ git branch List Branch:
       $ git branch --list Delete a Branch:
@@ -97,6 +103,7 @@
 
 
 ###Git stash
+
       Switch branches without committing the current branch. Stash current work:
       $ git stash
       Saving stashes with a message:
@@ -118,11 +125,13 @@
 
 
 ###Git cherry pic
+
       Apply the changes introduced by some existing commit:
       $ git cherry-pick
 
 
 ##8. Merging
+
       Git merge
       Merge the branches:
       $ git merge
@@ -140,7 +149,8 @@
       $ git rebase -i
 
 
-###9. Remote
+##9. Remote
+
       Git remote
       Check the configuration of the remote server:
       $ git remote -v
@@ -162,6 +172,7 @@
 
 
 ##10. Pushing Updates
+
       Git push
       Transfer the commits from your local repository to a remote server. Push data to the remote server:
       $ git push origin master Force push data:
@@ -171,6 +182,7 @@
 
 
 ##11. Pulling updates
+
       Git pull
       Pull the data from the server:
       $ git pull origin master
@@ -187,6 +199,7 @@
 
 
 ##12. Undo changes
+
       Git revert
       Undo the changes:
       $ git revert
@@ -200,6 +213,7 @@
 
 
 ##13. Removing files
+
       Git rm
       Remove the files from the working tree and from the index:
       $ git rm <file Name>
